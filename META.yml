@@ -1,5 +1,5 @@
 ---
-abstract: 'A simple and fast interface to the www.setlist.fm API'
+abstract: 'A simple and fast interface to the L<http://www.setlist.fm> API'
 author:
   - 'Hondallica <hondallica@gmail.com>'
 build_requires:
@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build::Tiny: '0.035'
 dynamic_config: 0
-generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060'
+generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142690'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,7 +26,7 @@ no_index:
 provides:
   WebService::SetlistFM:
     file: lib/WebService/SetlistFM.pm
-    version: '0.01'
+    version: '0.02'
 requires:
   Cache::LRU: '0'
   Carp: '0'
@@ -42,5 +42,5 @@ resources:
   bugtracker: https://github.com/hondallica/p5-WebService-SetlistFM/issues
   homepage: https://github.com/hondallica/p5-WebService-SetlistFM
   repository: https://github.com/hondallica/p5-WebService-SetlistFM.git
-version: '0.01'
+version: '0.02'
 x_authority: cpan:HONDALLIC

@@ -1,5 +1,5 @@
 {
-   "abstract" : "A simple and fast interface to the www.setlist.fm API",
+   "abstract" : "A simple and fast interface to the L<http://www.setlist.fm> API",
    "author" : [
       "Hondallica <hondallica@gmail.com>"
    ],
@@ -63,7 +63,7 @@
    "provides" : {
       "WebService::SetlistFM" : {
          "file" : "lib/WebService/SetlistFM.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -77,6 +77,6 @@
          "web" : "https://github.com/hondallica/p5-WebService-SetlistFM"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:HONDALLIC"
 }
